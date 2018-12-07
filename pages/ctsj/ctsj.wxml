@@ -1,0 +1,42 @@
+<!--pages/ctsj/ctsj.wxml-->
+<view class='container'>
+  <view class='content'>
+    <view class='son'>
+      原价:
+      <input type='text' placeholder='请输入原价'></input>
+    </view>
+    <view class='son'>
+      拼团价:
+      <input type='text' placeholder='请输入拼团价'></input>
+    </view>
+    <view class='son'>
+      成团人数:
+      <input type='text' placeholder='请输入成团人数'></input>
+    </view>
+    <view class='son pad'>
+      <view class="section">
+        <view class="section__title">成团时间:</view>
+        <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+          <view class="picker" style='color:#cbcbcb'>
+            {{multiArray[0][multiIndex[0]]}},{{multiArray[1][multiIndex[1]]}},{{multiArray[2][multiIndex[2]]}}
+          </view>
+        </picker>
+      </view>
+      <image src='http://i1.bvimg.com/667037/4266367b2eeb0824.png' class='img'></image>
+    </view>
+    <view class='son pad'>
+      发货方式:
+      <input type='text' placeholder='请选择发货方式'></input>
+      <image src='http://i1.bvimg.com/667037/4266367b2eeb0824.png' class='img'></image>
+    </view>
+    <view class='son pad'>
+      高级设置(选填)
+      <text>*规格、一人购买多份、库存等</text>
+      <image src='http://i1.bvimg.com/667037/4266367b2eeb0824.png' class='img' bindtap='gjsz'></image>
+    </view>
+  </view>
+  <view class='an'>
+    <button class='qx'>取消</button>
+    <button class='xyb' bindtap='xs'>下一步</button>
+  </view>
+</view>

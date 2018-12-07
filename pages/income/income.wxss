@@ -1,0 +1,147 @@
+/* pages/income/income.wxss */
+.title{
+  width: 670rpx;
+  margin-left: 40rpx;
+  height: 139rpx;
+  line-height: 139rpx;
+  border-bottom: 2rpx solid #cbcbcb;
+  display: flex;
+}
+.title-left{
+  font-size: 38rpx;
+  color: #999;
+}
+.null{
+  width: 78rpx;
+  height: 139rpx;
+}
+.title-right{
+  color: #333;
+  font-size: 44rpx;
+}
+.success{
+  width: 670rpx;
+  margin-left: 40rpx;
+  height: 138rpx;
+  border-bottom: 2rpx solid #cbcbcb;
+}
+.success-top{
+  display: flex;
+}
+.suc-text{
+  font-size: 32rpx;
+  color: #333;
+  margin-top: 20rpx;
+  margin-right: 397rpx;
+}
+.suc-text2{
+  font-size: 32rpx;
+  color: #FF2040;
+  margin-top: 20rpx;
+  margin-right: 397rpx;
+}
+.suc-text1{
+  font-size: 36rpx;
+  color: #333;
+  margin-top: 44rpx;
+}
+.success-bot{
+  height: 37rpx;
+  font-size: 26rpx;
+  line-height: 37rpx;
+  color: #999;
+}
+.content{
+  width: 670rpx;
+  height: 185rpx;
+  background: #409EFF;
+  margin-left: 40rpx;
+  border-radius: 10rpx;
+}
+.content-top{
+  width: 118rpx;
+  height: 62rpx;
+  line-height: 62rpx;
+  margin-left: 45rpx;
+  font-size: 44rpx;
+  color: #fff;
+  padding-top: 38rpx;
+  margin-bottom: 11rpx;
+}
+.content-bot{
+  width: 140rpx;
+  height: 40rpx;
+  margin-left: 45rpx;
+  font-size: 28rpx;
+  color: #fff;
+  opacity: 0.7;
+}
+.conBar{
+  width: 670rpx;
+  height: 202rpx;
+  margin-left: 40rpx;
+  border-bottom: 2rpx solid #cbcbcb;
+  line-height: 202rpx;
+  display: flex;
+}
+.conBar text{
+  font-size: 38rpx;
+  color: #999;
+  margin-left: 45rpx;
+}
+.conBar input{
+  width: 250rpx;
+  height: 45rpx;
+  margin-top: 75rpx;
+  margin-left: 200rpx;
+}
+.tip-title{
+  width: 140rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  color: #999;
+  margin-left: 85rpx;
+  margin-top: 61rpx;
+}
+.tip-con{
+  padding-left: 95rpx;
+  margin-top: 13rpx;
+  margin-right: 45rpx;
+  display: flex;
+}
+.cir{
+  width: 20rpx;
+  height: 15rpx;
+  margin-top: 10rpx;
+}
+.cir image{
+  width: 20rpx;
+  height: 15rpx;
+  display: inline;
+}
+.cir1{
+  width: 15rpx;
+  height: 15rpx;
+  margin-top: 10rpx;
+}
+.cir1 image{
+  width: 20rpx;
+  height: 15rpx;
+  display: inline;
+}
+.tip-text{
+  font-size: 24rpx;
+  color: #999;
+  line-height: 35rpx;
+  margin-left: 8rpx;
+}
+.forward{
+  width: 710rpx;
+  height: 88rpx;
+  margin-left: 20rpx;
+  background: #409EFF;
+  color: #fff;
+  font-size: 34rpx;
+  margin-top: 100rpx;
+}

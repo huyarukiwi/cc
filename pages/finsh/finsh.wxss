@@ -1,0 +1,224 @@
+/* pages/dfhxq/d.wxss */
+.dfh{
+  width: 750rpx;
+  height: 170rpx;
+  background: #409EFF;
+  display: flex;
+  line-height: 170rpx;
+}
+.dfhimg{
+  width: 87rpx;
+  height: 85rpx;
+  padding-top: 47rpx;
+  margin-left: 52rpx;
+  margin-right: 23rpx;
+}
+.dfhimg image{
+  width: 87rpx;
+  height: 85rpx;
+  display: inline;
+}
+.dfhtext{
+  font-size: 36rpx;
+  color: #fff;
+}
+.msg{
+  width: 720rpx;
+  height: 326rpx;
+  padding-left: 30rpx;
+}
+.msgCon{
+  line-height: 90rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.msgCon-text{
+  color: #999;
+  font-size: 28rpx;
+}
+.msgCon-text1{
+  color: #333;
+  font-size: 28rpx;
+  margin-left: 52rpx;
+}
+.msgCon1{
+  height: 114rpx;
+  padding-top: 30rpx;
+  display: flex;
+}
+.msgCon-text2{
+  width: 555rpx;
+  height: 80rpx;
+  font-size:28rpx;
+  color: #333;
+  margin-left: 24rpx;
+  line-height: 40rpx;
+}
+.bar{
+  width: 750rpx;
+  height: 20rpx;
+  background: #F9F8F8;
+}
+.title{
+  width: 718rpx;
+  line-height: 84rpx;
+  color: #333;
+  font-size: 30rpx;
+  padding-left: 32rpx;
+}
+.shop{
+  width: 750rpx;
+  height: 210rpx;
+  background: #F9F8F8;
+  margin-bottom: 6rpx;
+  display: flex;
+}
+.shop1{
+  width: 750rpx;
+  height: 210rpx;
+  background: #F9F8F8;
+  display: flex;
+}
+.shopimg{
+  width: 139.2rpx;
+  height: 139.2rpx;
+  padding-top: 35.4rpx;
+  margin: 0 27.4rpx 0 32.4rpx;
+}
+.shopimg image{
+  width: 139.2rpx;
+  height: 139.2rpx;
+  display: inline;
+}
+.shoptext{
+  margin-right: 47rpx;
+}
+.shoptext1{
+  width: 384rpx;
+  height: 66rpx;
+  font-size: 26rpx;
+  color: #333;
+  margin-top: 38rpx;
+  margin-bottom: 8rpx;
+  line-height: 33rpx;
+}
+.shoptext2{
+  width: 360rpx;
+  height: 33rpx;
+  line-height: 33rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+.shopprice1{
+  width: 92rpx;
+  height: 40rpx;
+  font-size: 28rpx;
+  color: #333;
+  line-height: 40rpx;
+  padding-top: 36rpx;
+}
+.shopprice2{
+  width: 79rpx;
+  height: 33rpx;
+  font-size: 24rpx;
+  color: #999;
+  line-height: 33rpx;
+  margin-left: 13rpx;
+  text-decoration: line-through;
+}
+.shopprice3{
+  width: 27rpx;
+  height: 33rpx;
+  font-size: 24rpx;
+  color: #999;
+  line-height: 33rpx;
+  margin-left: 60rpx;
+}
+.shopprice4{
+  width: 27rpx;
+  height: 33rpx;
+  font-size: 24rpx;
+  color: #999;
+  line-height: 33rpx;
+  margin-left: 60rpx;
+  margin-top: 37rpx;
+}
+.do{
+  width: 750rxp;
+  height: 82rpx;
+  border-bottom: 1rpx solid #eee;
+  padding-top: 27rpx;
+}
+.do button{
+  width: 152rpx;
+  height: 54rpx;
+  border-radius: 100rpx;
+  border: 1rpx solid #409EFF;
+  color: #409EFF;
+  line-height: 54rpx;
+  font-size: 26rpx;
+  padding: 0;
+  margin-left: 566rpx;
+  background: #fff;
+}
+.price{
+  width: 750rpx;
+  height: 221rpx;
+}
+.top{
+  width: 750rpx;
+  height: 120rpx;
+  border-bottom: 1rpx solid #eee;
+  padding-top: 28rpx;
+}
+.price-top{
+  padding-left: 31rpx;
+}
+.toptext{
+  font-size: 28rpx;
+  color: #999;
+}
+.toptext1{
+  font-size: 28rpx;
+  color: #333;
+  display: inline-block;
+  width: 549rpx;
+  text-align: right;
+  margin-left: 27rpx;
+}
+.toptext2{
+  font-size: 28rpx;
+  color: #333;
+  display: inline-block;
+  width: 549rpx;
+  text-align: right;
+  margin-left: 55rpx;
+}
+.bot{
+  width: 750rpx;
+  line-height: 72rpx;
+}
+.bottext{
+  color: #333;
+  font-size: 30rpx;
+  margin-left: 488rpx;
+}
+.bottext1{
+  color: #EC0909;
+  font-size: 30rpx;
+}
+.bar1{
+  width: 750rpx;
+  height: 100rpx;
+  background: #F9F8F8;
+}
+.footer{
+  width: 718rpx;
+  height: 197rpx;
+  padding-left: 32rpx;
+  padding-top: 28rpx;
+  padding-bottom: 28rpx;
+}
+.footer1 text{
+  color: #999;
+  font-size: 28rpx;
+}

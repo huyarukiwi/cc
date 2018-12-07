@@ -1,0 +1,30 @@
+<!--pages/fans/fans.wxml-->
+<view class='container'>
+<view class='head'>
+昊天的粉丝
+</view>
+<view class='son'>
+<image src='http://i1.bvimg.com/667037/e37bded67b5f85e5.png' class='img1'></image>
+<image src='http://i2.bvimg.com/667037/ebec2eadc3b7a6a0.jpg' class='img'></image>
+<view>
+<text class='mz'>懒猫老陈</text>
+<text class='cs'>购买次数：10</text>
+</view>
+</view>
+<view class='son'>
+<image src='http://i1.bvimg.com/667037/1f9acedacd60a91e.png' class='img1'></image>
+<image src='http://i2.bvimg.com/667037/ebec2eadc3b7a6a0.jpg' class='img'></image>
+<view>
+<text class='mz'>懒猫老陈</text>
+<text class='cs'>购买次数：3</text>
+</view>
+</view>
+<view class='son'>
+<image src='http://i1.bvimg.com/667037/85c12afe6f3ae329.png' class='img1'></image>
+<image src='http://i2.bvimg.com/667037/ebec2eadc3b7a6a0.jpg' class='img'></image>
+<view>
+<text class='mz'>懒猫老陈</text>
+<text class='cs'>购买次数：1</text>
+</view>
+</view>
+</view>

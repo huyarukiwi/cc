@@ -1,0 +1,43 @@
+<!--pages/gjdz/gjdz.wxml-->
+<!--pages/OrdinaryDelivery/OrdinaryDelivery.wxml-->
+<view class='OrdinaryDelivery'>
+  <view class='SelfMMain'>
+    <view class='SelfMMainLists'>
+      <view class='SelfMMainListsRadio'>
+        <label class="radio">
+          <radio checked="{{listidx==0}}" data-id="0" bindtap='radioChange' />
+        </label>
+
+      </view>
+      <view>
+        <view class='SelfMMainListsName'>直接到账
+          <span>适用于熟人交易</span>
+        </view>
+        <view class='SelfMMainListsTxt'>成团后团长可直接把款项提现到自己的微信零钱账户
+          <view>成团后退款等问题由团长自行解决</view>
+        </view>
+      </view>
+    </view>
+    <view class='SelfMMainLists'>
+      <view class='SelfMMainListsRadio'>
+        <label class="radio">
+          <radio checked="{{listidx==1}}" data-id="1" bindtap='radioChange' />
+        </label>
+
+      </view>
+      <view>
+        <view class=' SelfMMainListsName'>担保支付
+          <span>适用于熟人交易</span>
+        </view>
+        <view class='SelfMMainListsTxt'>成团后必须由团员完成确认收货或进行二维码核销后
+          <view>团长才可以提现。团长可通过小程序给团员退款。</view>
+        </view>
+        <view class='show' wx:if="{{listidx==1}}">
+          <view class='SelfMMainListsName2'>*成团后，团员到店核销，货款到账；若未核销，则 货款于30天后到账。</view>
+          <view class='SelfMMainListsName3'>*未成团则直接自动退款</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

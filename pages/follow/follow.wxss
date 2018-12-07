@@ -1,0 +1,43 @@
+/* pages/follow/follow.wxss */
+.container{
+width: 100%;
+height: auto;
+padding: 0 40rpx;
+box-sizing: border-box;
+overflow: hidden;
+}
+.head{
+width: 100%;
+height: 140rpx;
+font-size: 40rpx;
+color: #333333;
+line-height: 140rpx;
+font-weight: bold;
+border-bottom: 1rpx solid #cbcbcb;
+}
+.son{
+width: 100%;
+height: 200rpx;
+border-bottom: 1rpx solid #cbcbcb;
+}
+.img{
+width: 100rpx;
+height: 100rpx;
+margin-top: 50rpx;
+margin-left: 20rpx;
+float: left;
+margin-right: 26rpx;
+}
+.img1{
+width: 20rpx;
+height: 40rpx;
+float: right;
+margin-top: 80rpx;
+margin-right: 16rpx;
+}
+.son text{
+float: left;
+line-height: 200rpx;
+font-size: 30rpx;
+color: #333;
+}

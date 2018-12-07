@@ -1,0 +1,116 @@
+/* pages/ctsj/ctsj.wxss */
+
+.container {
+  width: 100%;
+  height: auto;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+.son {
+  width: 100%;
+  height: 140rpx;
+  border-bottom: 1rpx solid #cbcbcb;
+  line-height: 140rpx;
+  font-size: 34rpx;
+  color: #999;
+  text-indent: 20rpx;
+}
+
+.section {
+  width: 100%;
+  height: 140rpx;
+}
+
+.section__title {
+  width: 200rpx;
+  line-height: 140rpx;
+  font-size: 34rpx;
+  color: #999;
+  text-indent: 20rpx;
+  float: left;
+}
+
+picker {
+  width: 400rpx;
+  float: right;
+  height: 140rpx;
+  font-size: 34rpx;
+  color: #cbcbcb;
+  text-align: right;
+  padding-right: 20rpx;
+  box-sizing: border-box;
+}
+
+.son input {
+  width: 400rpx;
+  float: right;
+  height: 140rpx;
+  font-size: 34rpx;
+  color: #cbcbcb;
+  text-align: right;
+  padding-right: 20rpx;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 19rpx;
+  height: 37rpx;
+  position: absolute;
+  top: 55rpx;
+  right: 0;
+}
+
+.pad {
+  padding-right: 30rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.pad text {
+  display: block;
+  width: 350rpx;
+  height: 33rpx;
+  font-size: 24rpx;
+  line-height: 33rpx;
+  color: #ff2040;
+  position: absolute;
+  top: 94rpx;
+  left: 0rpx;
+}
+
+.an {
+  width: 100%;
+  height: 90rpx;
+  margin-bottom: 20rpx;
+  margin-top: 249rpx;
+}
+
+.qx {
+  width: 344rpx;
+  height: 88rpx;
+  float: left;
+  font-size: 34rpx;
+  line-height: 88rpx;
+  text-align: center;
+  color: #999;
+  margin-right: 20rpx;
+}
+
+.xyb {
+  width: 344rpx;
+  height: 88rpx;
+  font-size: 34rpx;
+  line-height: 88rpx;
+  text-align: center;
+  color: #fff;
+  background-color: #409eff;
+  float: right;
+}

@@ -1,0 +1,284 @@
+/* pages/PtptEndDetails/PtptEndDetails.wxss */
+/* pages/PtptReplateAddress/PtptReplateAddress.wxss */
+/* pages/CreateAddress/CreateAddress.wxss */
+.CreateAddress{
+  margin-bottom: 140rpx;
+}
+.CreateAddressList{
+  padding:43rpx 20rpx 46rpx;
+  margin:  0 40rpx;
+  position: relative;
+  border-bottom: 1px solid #CBCBCB;
+}
+.CreateAddressListTit{
+  width: 190rpx;
+  display: inline-block;
+  height: 48rpx;
+  line-height: 48rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 34rpx;
+  color: #333333;
+  letter-spacing: 0;
+}
+.CreateAddressList input {
+  padding-left: 12rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 34rpx;
+  letter-spacing: 0;
+}
+.Provinces{
+  position: absolute;
+  top: 131rpx;
+  right: 20rpx;
+  width: 40rpx;
+  height: 51rpx;
+}
+.section{
+  width: 390rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  display: inline-block;
+}
+.picker{
+  padding-left: 12rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 34rpx;
+  letter-spacing: 0;
+}
+.phcolor{
+  font-size: 34rpx;
+  color: #CBCBCB;
+}
+.DataBtns{
+  width: 750rpx;
+  height: 100rpx;
+  position: fixed;
+  bottom: 0;
+  z-index: 9;
+  left: 0;
+}
+.DataBtns button{
+  width: 33.33%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  font-family: PingFangSC-Regular;
+  font-size: 34rpx;
+  letter-spacing: 0;
+}
+.DataBtns .DataBtnsMain{
+    background: #FFFFFF;
+    font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  color: #333333;
+  letter-spacing: 0;
+}
+.DataBtns .DataBtnsRemove{
+  background: #72B8FF;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  }
+.DataBtns .DataBtnsSave{
+  background: #999999;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+.PtptEndDetailsBanner{
+  width: 100%;
+  height: 750rpx;
+  position: relative;
+}
+.PtptEndDetailsBannerImg{
+  width: 100%;
+  height: 100%;
+}
+#shareBtn{
+  position: absolute;
+  right: 0;
+  top: 102rpx;
+  width: 100rpx;
+  height: 110rpx;
+  outline: none;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+.PtptEndDetailsBannerIcon{
+  width: 100rpx;
+  height: 110rpx;
+}
+.PtptEndDetailsSpTxt{
+  margin:0 55rpx;
+  padding-bottom: 59rpx;
+  border-bottom: 1px solid #CBCBCB;
+}
+.PtptEndDetailsSpName{
+  padding: 42rpx 0 50rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 44rpx;
+  color: #333333;
+  line-height: 62rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.PtptEndDetailsSpJg{
+  height: 45rpx;
+  line-height: 45rpx;
+}
+.PtptEndDetailsSpJgRed{
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  color: #FF2040;
+  letter-spacing: 0;
+  padding-right: 22rpx;
+}
+.PtptEndDetailsSpJgGrey{
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  text-decoration: line-through;
+  color: #999999;
+  letter-spacing: 0;
+}
+.PtptEndDetailsSpJgRs{
+  padding-top: 32rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #999999;
+  letter-spacing: 0;
+}
+.PtptEndDetailsSpJgRs text{
+  display: inline-block;
+  width: 50%;
+}
+.PtptEndDetailsSpJgGdt{
+  padding: 18rpx 0 16rpx;
+  display: flex;  
+  height: 20rpx;
+  position: relative;
+}
+.PtptEndDetailsSpJgGdt1{
+  width: 210rpx;
+  height: 20rpx;
+  background: #409EFF;
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 20rpx;
+}
+.PtptEndDetailsSpJgGdt2{
+  height: 20rpx;
+  background: #F1F1F1;
+  width: 100%;
+}
+.PtptEndDetailsSpJgGTimer{
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  color: #999999;
+  line-height: 45rpx;
+  text-align: right;
+  letter-spacing: 0;
+}
+.CreateAddressListTxt{
+  padding-top: 20rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #999999;
+  line-height: 40rpx;
+  letter-spacing: 0;
+}
+.CreateAddressListTitImg{
+  line-height: 48rpx;
+  width: 19rpx;
+  height: 37rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 43rpx;
+}
+.CreateAddressListTitImg image{
+  width: 100%;
+  height: 100%;
+}
+.CreateAddressListTitTxt{
+  line-height: 48rpx;
+  position: absolute;
+  right: 20rpx;
+  text-align: right;
+  font-family: PingFangSC-Regular;
+  font-size: 34rpx;
+  color: #409EFF;
+  letter-spacing: 0;
+  top: 43rpx;
+}
+.CreateAddressListTitDQ1,.CreateAddressListTitDQ12{
+  padding-top: 20rpx;
+  line-height: 40rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #333333;
+  letter-spacing: 0;
+}
+.CreateAddressListTitDQ12{
+  color: #999;
+}
+.CreateAddressListTitImages{
+  padding-top: 8rpx;
+  height: 78rpx;
+  display: flex;
+}
+.CreateAddressListTitImages image{
+  width: 78rpx;
+  height: 78rpx;
+}
+.CreateAddressListTitImagesYuan{
+  width: 78rpx;
+  height: 78rpx;
+  background: #409EFF;
+  margin-left: -18rpx;
+  border-radius: 50%;
+}
+.CreateAddressListTitImgty{
+  top: 105rpx;
+}
+.CreateAddressListTitTz{
+  padding-top: 20rpx;
+  padding-left: 203rpx;
+  height: 112rpx;
+  line-height: 112rpx;
+  display: flex;
+  text-align: center;
+}
+.CreateAddressListTitTz image{
+  width: 112rpx;
+  height: 112rpx;
+}
+.CreateAddressListTitTz text{
+  padding-left: 24rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  color: #333333;
+  letter-spacing: 0;
+}
+.hhTop{
+  width: 88rpx;
+  height: 88rpx;
+  position: fixed;
+  bottom: 110rpx;
+  right: 40rpx;
+}
+.hhTop image{
+  width: 100%;
+  height: 100%;
+}

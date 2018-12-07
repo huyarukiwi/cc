@@ -1,0 +1,10 @@
+/* pages/huipintuan/huipintuan.wxss */
+.hpt-text{
+  width: 660rpx;
+  height: 455rpx;
+  margin-left: 45rpx;
+  font-size: 24rpx;
+  line-height: 35rpx;
+  color: #999;
+  margin-top: 30rpx;
+}

@@ -1,0 +1,23 @@
+<view class='MyAddress'>
+  <view class='MyAddressTit'>
+    我的地址
+  </view>
+  <view class='SelfMMain' wx:for="{{list}}" wx:key="{{index}}">
+    <view class='SelfMMainLists'> 
+      <view class='SelfMMainListsRadio'>
+          <label class="radio">
+            <radio checked="{{listidx==index}}"  data-id="{{index}}" bindtap='radioChange'/>
+          </label>
+      </view>
+      <view>
+        <view class='SelfMMainListsName'>昊天</view>
+        <view class='SelfMMainListsAddress'>天津市 天津市 武清区 1号楼</view>
+        <view class='SelfMMainListsTel'>13796199396</view>
+      </view>
+      <view class='SelfMMainListsImg' bindtap='raddress'>
+        <image src='http://i2.bvimg.com/667038/c9ade0f69c29db74.png'></image>
+      </view>
+    </view>
+  </view>
+</view>
+<button class='add' bindtap='add'>新增地址</button>

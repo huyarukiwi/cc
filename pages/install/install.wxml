@@ -1,0 +1,13 @@
+<!--pages/install/install.wxml-->
+<view class='conBar'>
+  <text>清除缓存</text>
+</view>
+<view class='conBar'>
+  <text>版本更新</text>
+</view>
+<view class='conBar'>
+  <text>关于手机</text>
+</view>
+<view class='conBar'>
+  <text>授权管理</text>
+</view>

@@ -1,0 +1,14 @@
+<view class='MyAttention'>
+  <view class='MyFamsTit'>
+    关注
+  </view>
+  <view class='MyFamsList' wx:for="{{list}}" wx:key="{{index}}">
+    <image src='{{item.userimg}}' class='MyFamsListImg2'></image>
+    <view>
+      <text class='MyFamsListTit'>{{item.name}}</text>
+    </view>
+    <view class='MyAttentionSj'>
+      <text>{{item.time}}</text>
+    </view>
+  </view>
+</view>

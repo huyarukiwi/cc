@@ -1,0 +1,40 @@
+<view class='CreateAddress'>
+  <view class='CreateAddressList' >
+    <label style='display:flex;'>
+      <text class='CreateAddressListTit'>名称</text>
+      <input placeholder-class="phcolor"  placeholder='请输入名称' value='{{username}}' bindblur='username'></input>
+    </label>
+  </view>
+  <view class='CreateAddressList' >
+  
+    <label style='display:flex;'  mode="region" bindlongtap="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+      <text class='CreateAddressListTit'>选择地区</text>
+     
+      <view class="section">
+        <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+          <view class="picker" style='color:{{kg}};'>
+            {{region[0]}} {{region[1]}} {{region[2]}}
+          </view>
+        </picker>
+      </view>
+      <image  src='http://i2.bvimg.com/667038/2968d2c303e78be9.png' class='Provinces'></image>
+    </label>
+  </view>
+  <view class='CreateAddressList' >
+    <label style='display:flex;'>
+      <text class='CreateAddressListTit'>详细地址</text>
+      <input  placeholder-class="phcolor" placeholder='请输入详细地址' value='{{useraddress}}'  bindblur='useraddress'></input>
+    </label>
+  </view>
+  <view class='CreateAddressList' >
+    <label style='display:flex;'>
+      <text class='CreateAddressListTit'>联系方式</text>
+      <input placeholder-class="phcolor"  placeholder='请输入联系方式' value='{{usertel}}'   bindblur='usertel'></input>
+    </label>
+  </view>
+
+    <view class='DataBtns'>
+      <button class='DataBtnsRemove' size="mini" bindtap='PtptSzAddress'>删除</button>
+      <button class='DataBtnsSave' size="mini" bindtap='PtptSzAddress'>保存</button>
+    </view>
+</view>

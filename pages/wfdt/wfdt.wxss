@@ -1,0 +1,53 @@
+/* pages/wfdt/wfdt.wxss */
+.container{
+  width: 100%;
+  height: auto;
+  padding: 0 40rpx; 
+  box-sizing: border-box;
+}
+.head{
+  width: 100%;
+  height: 100rpx;
+  font-size: 44rpx;
+  line-height: 100rpx;
+  color: #333;
+}
+.son{
+  width: 100%;
+  height: 274rpx;
+  border-bottom: 1rpx solid #CBCBCB;
+}
+.l{
+  width: 400rpx;
+  height: 274rpx;
+  float: left;
+}
+.son image{
+  width: 183rpx;
+  height: 183rpx;
+  float: right;
+  display: block;
+  margin-top: 50rpx;
+  margin-right: 20rpx;
+}
+.mz{
+  height: 45rpx;
+  font-size: 32rpx;
+  line-height: 45rpx;
+  color: #333;
+  margin-top: 50rpx;
+}
+.rs{
+  height: 33rpx;
+  font-size: 24rpx;
+  color: #999999;
+  line-height: 33rpx;
+  margin-top: 14rpx;
+}
+.sj{
+  height: 33rpx;
+  font-size: 24rpx;
+  line-height: 33rpx;
+  color: #FF2040;
+  margin-top: 59rpx;
+}

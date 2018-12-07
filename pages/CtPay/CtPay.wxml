@@ -1,0 +1,55 @@
+<!--pages/CtPay/CtPay.wxml-->
+<view class='ctpay'>
+  <view class='ctpayTit'>
+    <text class='ctpayTits'>参团</text>
+    <text class='ctpayDz'>选择收货地址</text>
+  </view>
+  <view class='CreateAddressList' >
+     <input class='CreateAddressListTit' placeholder='给团长留言（选填）'></input>  
+     <view class='CreateAddressListTitImg'> 
+        <image src='http://i2.bvimg.com/667038/c9ade0f69c29db74.png'></image>
+     </view>
+  </view>
+  <view class='CreateAddressList' >
+    <text class='CreateAddressList1'>自提点</text>
+    <text class='CreateAddressList2' bindtap='PtptSzAddress'>选择自提点</text>
+     <view class='CreateAddressListTitImg' bindtap='PtptSzAddress'> 
+        <image src='http://i2.bvimg.com/667038/c9ade0f69c29db74.png'></image>
+     </view>
+  </view>
+  <view style='height:344rpx;'></view>
+  <view class='ctpayAgreement'>
+    <view class='ctpayAgreementTit'>风险提示：</view>
+    <view class='ctpayAgreementTxt'>
+      此拼团支付使用的是“直接到账模式”。支付后如果成团，款项将直接打到团长的账户：如果未成团将自动退回到您的微信零钱账户。如果您确认信任该团长，请·构线下方的框，然后完成支付。
+    </view>
+    <view class='ctpayAgreementInpus'>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{agreement}}" wx:key="index">
+          <radio value="{{item.txt}}" bindtap='radio' data-id="{{item.uid}}" checked="{{item.checked}}"/>
+          <text>{{item.txt}}</text>
+        </label>
+      </radio-group>
+    </view>
+  </view>
+</view>
+
+<view class='fiexdBtns'>
+  <view class='fiexdBtnsTxt'>
+    <view class='fiexdBtnsTxt1'>合计：¥5.00元</view>
+    <view class='fiexdBtnsTxt2'>运费：¥8.00元</view>
+  </view>
+  <view class='fiexdBtnsBtn'>
+    <button bindtap='showPayBtn'>立即支付</button>
+  </view>
+</view>
+
+<view class='hide' wx:if="{{hideBg}}">
+  <view class='hidePay' wx:if="{{hidePay}}">
+    <view class='hidePayTxt'>
+      <view class='hidePayTxt1'>提示</view>
+      <view class='hidePayTxt2'>支付失败，请重试！</view>
+    </view>
+    <button bindtap='hidePayBtn'>确定</button>
+  </view>
+</view>

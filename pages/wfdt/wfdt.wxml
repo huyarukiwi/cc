@@ -1,0 +1,22 @@
+<!--pages/wfdt/wfdt.wxml-->
+<view class='container'>
+  <view class='head'>
+    我发的团
+  </view>
+  <view class='son'>
+    <view class='l'>
+      <view class='mz'>昊天</view>
+      <view class='rs'>参团人数：10</view>
+      <view class='sj'>有效期至：2018-07-17</view>
+    </view>
+    <image src='http://i1.bvimg.com/667037/64b3b675ede82073.jpg'></image>
+  </view>
+  <view class='son'>
+    <view class='l'>
+      <view class='mz'>昊天</view>
+      <view class='rs'>参团人数：10</view>
+      <view class='sj'>有效期至：2018-07-17</view>
+    </view>
+    <image src='http://i1.bvimg.com/667037/64b3b675ede82073.jpg'></image>
+  </view>
+</view>

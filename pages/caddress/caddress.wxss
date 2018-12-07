@@ -1,0 +1,58 @@
+/* pages/CreateAddress/CreateAddress.wxss */
+.CreateAddressList{
+  padding:43rpx 20rpx 46rpx;
+  margin:  0 40rpx;
+  height: 48rpx;
+  display: flex;
+  border-bottom: 1px solid #CBCBCB;
+}
+.CreateAddressListTit{
+  width: 190rpx;
+  display: inline-block;
+  height: 48rpx;
+  line-height: 48rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 34rpx;
+  color: #999999;
+  letter-spacing: 0;
+}
+.CreateAddressList input {
+  padding-left: 12rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 34rpx;
+  letter-spacing: 0;
+}
+.Provinces{
+  padding-left: 12rpx;
+  width: 40rpx;
+  height: 51rpx;
+}
+.section{
+  width: 390rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  display: inline-block;
+}
+.picker{
+  padding-left: 12rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 34rpx;
+  letter-spacing: 0;
+}
+.phcolor{
+  font-size: 34rpx;
+  color: #CBCBCB;
+}
+.res{
+  width: 710rpx;
+  height: 88rpx;
+  background: #409EFF;
+  color: #fff;
+  font-size: 34rpx;
+  margin-left: 20rpx;
+  margin-top: 391rpx;
+}

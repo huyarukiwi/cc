@@ -1,0 +1,77 @@
+<!--pages/OrdinaryDelivery/OrdinaryDelivery.wxml-->
+<view class='OrdinaryDelivery'>
+  <view class='SelfMMain'>
+    <view class='SelfMMainLists'> 
+      <view class='SelfMMainListsRadio'>
+            <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <label class="radio">
+            <radio checked="{{listidx==0}}"  data-id="0" bindtap='radioChange'/>
+          </label>
+            </picker>
+         
+      </view>
+      <view>
+        <view class='SelfMMainListsName'>配送发货</view>
+        <view class='SelfMMainListsTxt'>*运费模版 <span>默认为全国包邮</span>，需要使用电脑扫码登录 <span>qunoin.91pintuan.com</span> 创建运费模版。    </view>
+      </view>
+    </view>
+   
+    <view class='SelfMMainLists'> 
+      <view class='SelfMMainListsRadio'>
+          <label class="radio"  bindtap='ziyouziti'>
+            <radio checked="{{listidx==1}}"  data-id="1" bindtap='radioChange'/>
+          </label>
+      </view>
+      <view>
+        <view class='SelfMMainListsName'>自有自提点</view>
+        <view class='SelfMMainListsTxt'>
+          *需先在<span>/我的/-/我是团长/-/自提点设置/</span>中添加自提点，团员拼团获得二维码，到店自提时需出示该码以便商家核销。
+        </view>
+      </view>
+    </view>
+     <view class='SelfMMainLists'> 
+      <view class='SelfMMainListsRadio'>
+          <label class="radio">
+            <radio checked="{{listidx==2}}"  data-id="2" bindtap='radioChange'/>
+          </label>
+      </view>
+      <view>
+        <view class='SelfMMainListsName'>合作自提点</view>
+        <view class='SelfMMainListsTxt'>
+        *每个小团的自提点为该小团长的自提点，成团后大团长往每个自提点统一配货，团员到小团长自提点取货。 
+         </view>
+         <view  class='SelfMMainListsTxt'>
+         <span>（注：配货到不同地区合作自提点的物流费用可通过电脑端登录qunpin.91pintuan.com设置运费模版，消费者参团时承担运费。）</span>
+         </view>
+      </view>
+    </view>
+    <view class='SelfMMainLists'> 
+      <view class='SelfMMainListsRadio'>
+          <label class="radio">
+            <radio checked="{{listidx==3}}"  data-id="3" bindtap='radioChange'/>
+          </label>
+      </view>
+      <view>
+        <view class='SelfMMainListsName'>二维码凭证<span>（活动门票、代金券等）</span></view>
+        <view class='SelfMMainListsTxt'>
+          *消费者购买后获得二维码，使用时需出示该码以便商家核销。
+        </view>
+      </view>
+    </view>
+    <view class='SelfMMainLists'> 
+      <view class='SelfMMainListsRadio'>
+          <label class="radio">
+            <radio checked="{{listidx==4}}"  data-id="4" bindtap='radioChange'/>
+          </label>
+      </view>
+      <view>
+        <view class='SelfMMainListsName'>虚拟码 <span>（在线课程、电子会员卡等）</span></view>
+        <view class='SelfMMainListsTxt'>
+          *需使用电脑扫码登录 qunpin.91pintuan.com 创建虚拟码批次。
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>
+

@@ -1,0 +1,175 @@
+<!--pages/my/my.wxml-->
+<view class='msg'>
+  <view class='msg-top'>
+    <view class='msg-top-text'>
+      <view class='bold' bindtap='main'>
+        <text>昊天</text>
+      </view>
+      <view class='default' bindtap='per'>
+        <text>编辑个人资料</text>
+      </view>
+    </view>
+    <view class='msg-top-img'>
+      <image src='http://i2.bvimg.com/667036/0066689767d874a9.jpg'></image>
+    </view>
+  </view>
+  <view class='msg-bottom'>
+    <view class='msg-bot-left' bindtap='follow'>
+      <view class='left-top'>
+        <text>1</text>
+      </view>
+      <view class='left-bot'>
+        <text>关注</text>
+      </view>
+    </view>
+    <view class='msg-bot-bar'>
+
+    </view>
+    <view class='msg-bot-left' bindtap='fans'>
+      <view class='left-top'>
+        <text>3</text>
+      </view>
+      <view class='left-bot'>
+        <text>粉丝</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='con'>
+  <view class='con-title'>
+    <view class='con-title-bar'></view>
+    <view class='con-title-text'>
+      <text>我的钱包</text>
+    </view>
+  </view>
+  <view class='con-content'>
+    <view class='con-content-left' bindtap='income'>
+      <view class='content-left-top'>
+        <text>¥0.00</text>
+      </view>
+      <view class='content-left-bot'>
+        <text>我的收入</text>
+      </view>
+    </view>
+    <view class='con-content-right' bindtap='det'>
+      <view class='content-right-top'>
+        <image src='http://i2.bvimg.com/667036/6a2f3b8dd48160c1.png'></image>
+      </view>
+      <view class='content-right-bot'>
+        <text>收入明细</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='con'>
+  <view class='con-title'>
+    <view class='con-title-bar'></view>
+    <view class='con-title-text'>
+      <text>我是团长</text>
+    </view>
+  </view>
+  <view class='con-content'>
+    <view class='content-right' bindtap='wfdt'>
+      <view class='content-right-top1'>
+        <image src='http://i2.bvimg.com/667036/be76c506abf8c0f0.png'></image>
+      </view>
+      <view class='content-right-bot1'>
+        <text>我发的团</text>
+      </view>
+    </view>
+    <view class='content-right1' bindtap='lifting'>
+      <view class='content-right-top2'>
+        <image src='http://i2.bvimg.com/667036/00c413e171a7bcab.png'></image>
+      </view>
+      <view class='content-right-bot1'>
+        <text>自提点设置</text>
+      </view>
+    </view>
+    <view class='content-right2'>
+      <view class='content-right-top1' bindtap='ddgl'>
+        <image src='http://i2.bvimg.com/667036/75e6d3df6e00fca0.png'></image>
+      </view>
+      <view class='content-right-bot1'>
+        <text>订单管理</text>
+      </view>
+    </view>
+  </view>
+  <view class='con-content'>
+    <view class='content-right'>
+      <view class='content-right-top1'>
+        <image src='http://i2.bvimg.com/667036/a281ea4b4707cc11.png'></image>
+      </view>
+      <view class='content-right-bot1'>
+        <text>扫码核销</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='con'>
+  <view class='con-title'>
+    <view class='con-title-bar'></view>
+    <view class='con-title-text'>
+      <text>我是团员</text>
+    </view>
+  </view>
+  <view class='con-content'>
+    <view class='content-right' bindtap='group'>
+      <view class='content-right-top1'>
+        <image src='http://i2.bvimg.com/667036/61bdcba8520adf0a.png'></image>
+      </view>
+      <view class='content-right-bot1'>
+        <text>我参的团</text>
+      </view>
+    </view>
+    <view class='content-right3' bindtap='order'>
+      <view class='content-right-top1'>
+        <image src='http://i2.bvimg.com/667036/aeb8bb8d7f493586.png'></image>
+      </view>
+      <view class='content-right-bot1'>
+        <text>我的订单</text>
+      </view>
+    </view>
+    <view class='content-right2' bindtap='address'>
+      <view class='content-right-top1'>
+        <image src='http://i2.bvimg.com/667036/92a0265bb4a62cbf.png'></image>
+      </view>
+      <view class='content-right-bot1'>
+        <text>地址管理</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='con'>
+  <view class='con-title'>
+    <view class='con-title-bar'></view>
+    <view class='con-title-text'>
+      <text>设置</text>
+    </view>
+  </view>
+  <view class='con-content'>
+    <view class='content-right4' bindtap='install'>
+      <view class='content-right-top3'>
+        <image src='http://i2.bvimg.com/667036/80fdecbb1be78622.png'></image>
+      </view>
+      <view class='content-right-bot2'>
+        <text>设置</text>
+      </view>
+    </view>
+    <view class='content-right1'>
+      <view class='content-right-top1'>
+        <image src='http://i2.bvimg.com/667036/eaf9bb68db4e2f07.png'></image>
+      </view>
+      <view class='content-right-bot1'>
+        <text>意见反馈</text>
+      </view>
+    </view>
+    <view class='content-right2' bindtap='hpt'>
+      <view class='content-right-top2'>
+        <image src='http://i2.bvimg.com/667036/51b88e8020e8f186.png'></image>
+      </view>
+      <view class='content-right-bot1'>
+        <text>关于惠拼团</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,47 @@
+<!--pages/ptxq/ptxq.wxml-->
+<view class='zz' wx:if="{{showModal}}">
+  <view class="hz">
+    <view bindtap="chooseimage" class='xc'>图片(至少一张)</view>
+    <view bindtap="setPhotoInfo" class='pz'>视频(最长30秒)</view>
+    <view bindtap="go">取消</view>
+  </view>
+</view>
+<view class='zz2' wx:if="{{show}}">
+  <view class='hz2'>
+    <view class='tishi'>提示</view>
+    <view class='qd'>最多只能添加6张图片</view>
+    <button bindtap='ctsj'>确定</button>
+  </view> 
+</view>
+<view class='container'>
+  <view class='head'>
+    <input type='text' placeholder='标题'></input>
+  </view>
+  <view class='content'>
+    <textarea placeholder='添加描述'></textarea>
+    <view class='tp'>
+      <view class='son' wx:if="{{tempFilePaths}}">
+        <image src='{{tempFilePaths}}' class='img1'></image>
+      </view>
+      <view class='son'>
+        <image src='http://i2.bvimg.com/667037/d96c368908fbd4b8.jpg' class='img1'></image>
+        <view class='hsc'>
+          <image src='http://i2.bvimg.com/667037/5dcfc99d38ef302d.png' class='img'></image>
+        </view>
+      </view>
+      <view class='son'>
+        <view class='hsc2' bindtap="submit">
+          <image src='http://i2.bvimg.com/667037/3b9c27c5fad8e497.png' class='img2'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='dw'>
+    <input type='text' placeholder='添加定位'></input>
+    <image src='http://i2.bvimg.com/667037/506c44d0fea92480.png'></image>
+  </view>
+  <view class='an'>
+    <button class='qx'>取消</button>
+    <button class='xyb' bindtap='xs'>下一步</button>
+  </view>
+</view>

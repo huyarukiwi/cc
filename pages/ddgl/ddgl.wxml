@@ -1,0 +1,172 @@
+<!--pages/ddgl/ddgl.wxml-->
+<view class='zz' wx:if="{{show}}">
+  <view class='hz'>
+    <view style='border-bottom:1rpx solid #E5E5E5' bindtap='kdps'>快递配送</view>
+    <view style='margin-bottom:20rpx' bindtap='zjps'>自己配送</view>
+    <view bindtap='qx'>取消</view>
+  </view>
+</view>
+<view class='con'>
+  <view class='head'>
+    <text class="{{hideindex==0?'h1':'h2'}}" bindtap='click' data-id='0'>待发货</text>
+    <text class="{{hideindex==1?'h1':'h2'}}" bindtap='click' data-id='1'>待收货</text>
+    <text class='h2'>已完成</text>
+    <text class='h2'>退款申请</text>
+  </view>
+  <view class='content' wx:if="{{hideindex==0}}">
+    <view class='son'>
+      <view class='son_t'>
+        订单编号 7915388323646239
+        <text>待发货</text>
+      </view>
+      <view class='son_c'>
+        <image src='http://i2.bvimg.com/667037/381ee2607a8a7931.jpg'></image>
+        <view class='mc'>苹果原装手机数据线充电线iPhone6s5S/6/7/PlusiPad</view>
+        <view class='gg'>颜色：红色 长度：1.5米</view>
+        <view class='jg'>¥29.00</view>
+        <view class='sl'>x2</view>
+      </view>
+      <view class='son_b'>
+        <view class='xj'>共2件商品 合计：
+          <text>¥ 58.00</text> （含运费¥0.00）</view>
+        <view class='btn'>
+          <text style='margin-left:396rpx' bindtap='fs'>立即发货</text>
+          <text>确认消费</text>
+        </view>
+      </view>
+    </view>
+    <view class='son' bindtap='dfhxq'>
+      <view class='son_t'>
+        订单编号 7915388323646238
+        <text>待收货</text>
+      </view>
+      <view class='son_c'>
+        <image src='http://i2.bvimg.com/667037/bc554db2f1961434.jpg'></image>
+        <view class='mc' style='margin-top:73rpx'>Apple 耳机 采用 Lightning 接头的 EarPods</view>
+        <view class='jg' style='top:64rpx'>¥29.00</view>
+        <view class='sl'>x2</view>
+      </view>
+      <view style='width:100%;height:6rpx;background:#fff'></view>
+      <view class='son_c'>
+        <image src='http://i2.bvimg.com/667037/381ee2607a8a7931.jpg'></image>
+        <view class='mc' style='margin-top:73rpx'>苹果原装手机数据线充电线iPhone6s5S/6/7/PlusiPad</view>
+        <view class='jg' style='top:64rpx'>¥50.00</view>
+        <view class='sl'>x1</view>
+      </view>
+      <view class='son_b'>
+        <view class='xj' style=' border-bottom:none'>共3件商品 合计：
+          <text>¥ 79.00</text> （含运费¥0.00）</view>
+      </view>
+    </view>
+    <view class='son'>
+      <view class='son_t'>
+        订单编号 7915388323646239
+        <text>已完成</text>
+      </view>
+      <view class='son_c'>
+        <image src='http://i2.bvimg.com/667037/381ee2607a8a7931.jpg'></image>
+        <view class='mc' style='margin-top:73rpx'>苹果原装手机数据线充电线iPhone6s5S/6/7/PlusiPad</view>
+        <view class='jg' style='top:64rpx'>¥29.00</view>
+        <view class='sl'>x2</view>
+      </view>
+      <view class='son_b'>
+        <view class='xj' style=' border-bottom:none'>共2件商品 合计：
+          <text>¥ 58.00</text> （含运费¥0.00）</view>
+      </view>
+    </view>
+    <view class='son'>
+      <view class='son_t'>
+        订单编号 7915388323646239
+        <text style='color:#FF2040'>待退款</text>
+      </view>
+      <view class='son_c'>
+        <image src='http://i2.bvimg.com/667037/381ee2607a8a7931.jpg'></image>
+        <view class='mc' style='margin-top:73rpx'>苹果原装手机数据线充电线iPhone6s5S/6/7/PlusiPad</view>
+        <view class='jg' style='top:64rpx'>¥29.00</view>
+        <view class='sl'>x2</view>
+      </view>
+      <view class='son_b'>
+        <view class='xj' style=' border-bottom:none'>共2件商品 合计：
+          <text>¥ 58.00</text> （含运费¥0.00）</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='content' wx:if="{{hideindex==1}}">
+    <view class='son'>
+      <view class='son_t'>
+        订单编号 7915388323646239
+        <text>待发货</text>
+      </view>
+      <view class='son_c'>
+        <image src='http://i2.bvimg.com/667037/381ee2607a8a7931.jpg'></image>
+        <view class='mc'>苹果原装手机数据线充电线iPhone6s5S/6/7/PlusiPad</view>
+        <view class='gg'>颜色：红色 长度：1.5米</view>
+        <view class='jg'>¥29.00</view>
+        <view class='sl'>x2</view>
+      </view>
+      <view class='son_b'>
+        <view class='xj'>共2件商品 合计：
+          <text>¥ 58.00</text> （含运费¥0.00）</view>
+        <view class='btn'>
+          <text style='margin-left:550rpx;'>确认收货</text>
+        </view>
+      </view>
+    </view>
+    <view class='son' bindtap='dsh'>
+      <view class='son_t'>
+        订单编号 7915388323646238
+        <text>待收货</text>
+      </view>
+      <view class='son_c'>
+        <image src='http://i2.bvimg.com/667037/bc554db2f1961434.jpg'></image>
+        <view class='mc' style='margin-top:73rpx'>Apple 耳机 采用 Lightning 接头的 EarPods</view>
+        <view class='jg' style='top:64rpx'>¥29.00</view>
+        <view class='sl'>x2</view>
+      </view>
+      <view style='width:100%;height:6rpx;background:#fff'></view>
+      <view class='son_c'>
+        <image src='http://i2.bvimg.com/667037/381ee2607a8a7931.jpg'></image>
+        <view class='mc' style='margin-top:73rpx'>苹果原装手机数据线充电线iPhone6s5S/6/7/PlusiPad</view>
+        <view class='jg' style='top:64rpx'>¥50.00</view>
+        <view class='sl'>x1</view>
+      </view>
+      <view class='son_b'>
+        <view class='xj' style=' border-bottom:none'>共3件商品 合计：
+          <text>¥ 79.00</text> （含运费¥0.00）</view>
+      </view>
+    </view>
+    <view class='son'>
+      <view class='son_t'>
+        订单编号 7915388323646239
+        <text>已完成</text>
+      </view>
+      <view class='son_c'>
+        <image src='http://i2.bvimg.com/667037/381ee2607a8a7931.jpg'></image>
+        <view class='mc' style='margin-top:73rpx'>苹果原装手机数据线充电线iPhone6s5S/6/7/PlusiPad</view>
+        <view class='jg' style='top:64rpx'>¥29.00</view>
+        <view class='sl'>x2</view>
+      </view>
+      <view class='son_b'>
+        <view class='xj' style=' border-bottom:none'>共2件商品 合计：
+          <text>¥ 58.00</text> （含运费¥0.00）</view>
+      </view>
+    </view>
+    <view class='son'>
+      <view class='son_t'>
+        订单编号 7915388323646239
+        <text style='color:#FF2040'>待退款</text>
+      </view>
+      <view class='son_c'>
+        <image src='http://i2.bvimg.com/667037/381ee2607a8a7931.jpg'></image>
+        <view class='mc' style='margin-top:73rpx'>苹果原装手机数据线充电线iPhone6s5S/6/7/PlusiPad</view>
+        <view class='jg' style='top:64rpx'>¥29.00</view>
+        <view class='sl'>x2</view>
+      </view>
+      <view class='son_b'>
+        <view class='xj' style=' border-bottom:none'>共2件商品 合计：
+          <text>¥ 58.00</text> （含运费¥0.00）</view>
+      </view>
+    </view>
+  </view>
+</view>

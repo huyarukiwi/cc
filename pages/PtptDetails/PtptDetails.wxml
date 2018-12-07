@@ -1,0 +1,144 @@
+<view class='CreateAddress'>
+  <view class='PtptEndDetailsBanner'>
+    <image src='http://i2.bvimg.com/667038/168ee86efdc0ddc2.jpg' class='PtptEndDetailsBannerImg'></image>
+    <button class='share' id="shareBtn" bindtap='showZf'>
+    <image src='http://i2.bvimg.com/667038/8bcae6e24b583932.png' class='PtptEndDetailsBannerIcon' bindtap='Fx'  open-type="share"></image>
+      </button>
+  </view>
+  <view class='PtptEndDetailsSpTxt'>
+    <view class='PtptEndDetailsSpName'>
+      衬衣女2018春装新款大码宽松衬衫女纯色T恤中年女装
+    </view>
+    <view class='PtptEndDetailsSpJg'>
+      <text class='PtptEndDetailsSpJgRed'>拼团价：¥5</text>
+      <text class='PtptEndDetailsSpJgGrey'>原价：¥20</text>
+    </view>
+    <view class='PtptEndDetailsSpJgRs'>
+      <text>团长：非小樊</text>
+      <text style='text-align:right;'>10人餐团/30人成团</text>
+    </view>
+    <view class='PtptEndDetailsSpJgGdt'>
+      <view class='PtptEndDetailsSpJgGdt1'></view>
+      <view class='PtptEndDetailsSpJgGdt2'></view>
+    </view>
+    <view class='PtptEndDetailsSpJgGTimer'>
+      剩余时间：1小时内
+    </view>
+  </view>
+  <view class='CreateAddressList' >
+     <view  class='CreateAddressListTit' >查看规格</view>
+     <view class='CreateAddressListTitImg'> 
+        <image src='http://i2.bvimg.com/667038/c9ade0f69c29db74.png'></image>
+     </view>
+  </view>
+  <view class='CreateAddressList' >
+     <view  class='CreateAddressListTit' >详情描述</view>
+     <view class='CreateAddressListTxt'>
+      材质成分: 聚酯纤维100%流行元素: 拼接 纽扣 褶皱袖长: 七分袖销售渠道类型: 纯电商(只在线上销售)货号: G7017服装版型: 宽松衣长: 常规款领型: V领袖型: 常规品牌: GANGAN WORLD/甘甘的世界图案: 纯色 拼接图案文化: 经典适用年龄: 30-34周岁风格: 通勤通勤: 简约年份季节: 2017年秋季
+     </view>
+  </view>
+  <view class='CreateAddressList' >
+     <view  class='CreateAddressListTit' >发货方式</view>
+     <view class='CreateAddressListTitTxt'> 
+        自提
+     </view>
+  </view>
+   <view class='CreateAddressList' >
+     <view  class='CreateAddressListTit' >查看自提点</view>
+     <view class='CreateAddressListTitImg'> 
+        <image src='http://i2.bvimg.com/667038/c9ade0f69c29db74.png'></image>
+     </view>
+  </view>
+  <view class='CreateAddressList' bindtap='dingw'>
+  
+      <view class='CreateAddressListTit'>选择地区</view>
+      <view class='CreateAddressListTitDQ1'>{{weiz}}</view>
+      <view class='CreateAddressListTitDQ12'>{{weiz}}</view>
+      <image  src='http://i2.bvimg.com/667038/2968d2c303e78be9.png' class='Provinces'></image>
+  </view>
+  <view class='CreateAddressList' bindtap='MembersList'>
+     <view  class='CreateAddressListTit' >团员</view>
+     <view class='CreateAddressListTitImages' >
+        <image src='http://i2.bvimg.com/667036/a65f72c7fe9db3f1.jpg'>
+        </image>
+        <image  class="CreateAddressListTitImagesYuan" src='http://i2.bvimg.com/667036/a65f72c7fe9db3f1.jpg'>
+        </image>
+     </view>
+     <view></view>
+     <view class='CreateAddressListTitImg CreateAddressListTitImgty'> 
+        <image src='http://i2.bvimg.com/667038/c9ade0f69c29db74.png'></image>
+     </view>
+  </view>
+  <view class='CreateAddressList' >
+     <view  class='CreateAddressListTit' >关于团长</view>
+     <view class='CreateAddressListTitTz'>
+      <image src='http://i2.bvimg.com/667036/a65f72c7fe9db3f1.jpg'></image>
+      <text>懒猫老陈</text>
+     </view>
+     <view class='CreateAddressListTxt'>
+     材质成分: 聚酯纤维100%流行元素: 拼接 纽扣 褶皱袖长: 七分袖销售渠道类型: 纯电商(只在线上销售)货号: G7017服装版型: 宽松衣长: 常规款领型: 
+     </view>
+  </view>
+  
+</view>
+
+ <view class='DataBtns'>
+      <button class='DataBtnsMain' size="mini">首页</button>
+      <button class='DataBtnsRemove' size="mini">编辑拼团</button>
+      <button class='DataBtnsSave' size="mini" bindtap='Details'>立即参团</button>
+  </view>
+<view class='hhTop'  bindtap='goTop'>
+    <image src='http://i2.bvimg.com/667038/9642f0e1e5f6313f.png'></image>
+  </view>
+
+  <view wx:if="{{showZf}}" class='showZf'>
+    <view class='showZfBtns' wx:if="{{showZfBtns}}">
+      <button bindtap='hideZfs'>转发</button>
+      <button class='showZfBtnsEwm' bindtap='showZfBtns'>生成二维码</button>
+      <view style='height:20rpx;background:#EBEBEB;'></view>
+      <button bindtap='hideZf'>取消</button>
+    </view>
+    <view wx:if="{{showZfEwm}}" class='showZfBtnsEwmMain'>
+      <view class='showZfBtnsEwmMainImg'> <image src='http://i1.bvimg.com/667036/e5707ec33784ea16.jpg'></image></view>
+      <button class='showZfBtnsEwmMainBtn' bindtap='hideEwm'>关闭</button>
+    </view>
+    <view class='Details' wx:if="{{Details}}" >
+      <view class='DetailsX'><text bindtap='hideDetails'>X</text></view>
+      <view class='DetailsTit'>
+        衬衣女2018春装新款大码宽松衬衫女纯色T恤中年女装       
+      </view>
+      <view style='height:1px;background:rgba(178,178,178,0.10);'></view>
+      <view class='DetailsFl'>
+        <view class='DetailsFlTit'>
+          颜色分类
+        </view>
+        <view class='DetailsFlList'>
+          <button class='DetailsFlList1'>白色</button>
+          <button class='DetailsFlList2'>黄色</button>
+          <button class='DetailsFlList3'>绿色</button>
+        </view>
+      </view>
+      <view style='height:1px;background:rgba(178,178,178,0.10);'></view>
+      <view class='DetailsFl'>
+        <view class='DetailsFlTit'>
+          尺码分类
+        </view>
+        <view class='DetailsFlList'>
+          <button class='DetailsFlList1'>42号</button>
+          <button class='DetailsFlList2'>43号</button>
+        </view>
+      </view>
+      <view style='height:1px;background:rgba(178,178,178,0.10);'></view>
+      <view class='DetailsGmN'>
+        <view class='DetailsGmNLt'>
+          购买数量
+        </view>
+        <view class='DetailsGmNRt'>
+          <text class='DetailsGmNRt1'>-</text>
+          <text class='DetailsGmNRt2'>1</text>
+          <text class='DetailsGmNRt1 DetailsGmNRt3'>+</text>
+        </view>
+      </view>
+      <button class='DetailsSave' bindtap='showSave'>立即参团</button>
+    </view>
+  </view>

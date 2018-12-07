@@ -1,0 +1,126 @@
+.MyOrderTit{
+  margin:0 40rpx;
+  padding: 30rpx 0 62rpx;
+  height: 75rpx;
+  line-height: 75rpx;
+  font-family: PingFangSC-Semibold;
+  font-size: 54rpx;
+  color: #333333;
+  letter-spacing: 0;
+  font-weight: bold;
+  border-bottom: 1px solid #CBCBCB;
+  position: relative;
+}
+.MyMainConcern{
+  position: absolute;
+  top: 43rpx;
+  right: 10rpx;
+  width: 146rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  text-align: center;
+  background: #FFFFFF;
+  border: 1px solid #CBCBCB;
+  border-radius: 8rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #409EFF;
+  letter-spacing: 0;
+}
+.MyOrderMain{
+  margin: 0 40rpx;
+}
+.MyOrderMainLists{
+  padding: 50rpx 0;
+  border-bottom: 1px solid #CBCBCB;
+  display: flex;
+  flex-wrap: wrap;
+}
+.MyOrderMainListsImg{
+  width: 184rpx;
+  height: 184rpx;
+  padding-left: 40rpx;
+}
+.MyOrderMainListsImg image{
+  width: 100%;
+  height: 100%;
+}
+.MyOrderMainListsTxt{
+  width: 440rpx;
+}
+.MyOrderMainListsTxtName{
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  height: 90rpx;
+  line-height: 45rpx;
+  font-weight: 600;
+  color: #333333;
+  letter-spacing: 0;
+  padding-bottom: 14rpx;
+}
+.MyOrderMainListsTxtNum text{
+  height: 33rpx;
+  line-height: 33rpx;
+  display: inline-block;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  color: #FF2040;
+  letter-spacing: 0;
+  padding-bottom: 4rpx;
+}
+.MyOrderMainListsTxtNum .MyOrderMainListsTxtNumLt{
+  padding-right: 26rpx;
+}
+.MyOrderMainListsTxtNum .MyOrderMainListsTxtNumRt{
+  color: #999999;
+}
+.MyOrderMainListsTxtTimer{
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  height: 33rpx;
+  line-height: 33rpx;
+  color: #999999;
+  letter-spacing: 0;
+  padding-bottom: 20rpx;
+}
+.MyOrderMainListsTxtTData{
+  height: 33rpx;
+  line-height: 33rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  color: #FF2040;
+  letter-spacing: 0;
+  padding-bottom: 30rpx;
+}
+.MyOrderBtm{
+  padding-top: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  height: 33rpx;
+  line-height: 33rpx;
+  color: #999999;
+  text-align: center;
+  letter-spacing: 0;
+  position: relative;
+}
+.MyOrderMainListsBtmTxt{
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #999999;
+  letter-spacing: 0;
+  line-height: 40rpx;
+  height: 80rpx;
+  width: 640rpx;
+}
+.MyMainPaths{
+  width: 88rpx;
+  height: 88rpx;
+  padding-top: 50rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.MyMainPaths image{
+  width: 100%;
+  height: 100%;
+}

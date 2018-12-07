@@ -1,0 +1,34 @@
+<view class="MyOrder">
+  <view class='MyOrderTit'>
+  我的订单
+  </view>
+
+  <view class='MyOrderMain'>
+
+    <view class='MyOrderMainLists' wx:for="{{list}}" wx:key="{{index}}">
+      <view class='MyOrderMainListsTxt'>
+        <view class='MyOrderMainListsTxtName'>
+          衬衣女2018春装新款大码宽松衬衫女纯色T恤中年女装
+        </view>
+         <view class='MyOrderMainListsTxtNum'>
+          <text class='MyOrderMainListsTxtNumLt'>总价：¥39.00</text>
+          <text class='MyOrderMainListsTxtNumRt'>x1</text>
+        </view>
+        <view class='MyOrderMainListsTxtTimer'>
+          参团时间：2018-05-16 20:21:00
+        </view>
+        <view class='MyOrderMainListsTxtTData'>
+          已退款
+        </view>
+      </view>
+      <view class='MyOrderMainListsImg'>
+        <image src='http://i1.bvimg.com/667038/82a331617a1d769b.png'></image>
+      </view>
+    </view>
+    <view class='MyOrderBtm'>
+      我是有底线的！
+    </view>
+
+  </view>
+
+</view>

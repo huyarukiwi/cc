@@ -1,0 +1,13 @@
+/* pages/install/install.wxss */
+.conBar{
+  width: 670rpx;
+  height: 137rpx;
+  border-bottom: 2rpx solid #cbcbcb;
+  margin-left: 40rpx;
+  line-height: 137rpx;
+  font-size: 34rpx;
+  color: #333;
+}
+.conBar text{
+  margin-left: 20rpx;
+}

@@ -1,0 +1,11 @@
+<!--pages/follow/follow.wxml-->
+<view class='container'>
+<view class='head'>
+关注
+</view>
+<view class='son'>
+<image src='http://i2.bvimg.com/667037/ebec2eadc3b7a6a0.jpg' class='img'></image>
+<text>懒猫老陈</text>
+<image src='http://i1.bvimg.com/667037/4266367b2eeb0824.png' class='img1'></image>
+</view>
+</view>

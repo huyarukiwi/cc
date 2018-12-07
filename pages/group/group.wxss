@@ -1,0 +1,84 @@
+/* pages/MyOrder/MyOrder.wxss */
+.MyOrderTit{
+  margin:0 40rpx;
+  padding: 37rpx 0 40rpx;
+  height: 62rpx;
+  line-height: 62rpx;
+  font-family: PingFangSC-Semibold;
+  font-size: 44rpx;
+  color: #333333;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+.MyOrderMain{
+  margin: 0 40rpx;
+}
+.MyOrderMainLists{
+  padding: 50rpx 0;
+  border-bottom: 1px solid #CBCBCB;
+  display: flex;
+}
+.MyOrderMainListsImg{
+  width: 184rpx;
+  height: 184rpx;
+  padding-left: 40rpx;
+}
+.MyOrderMainListsImg image{
+  width: 100%;
+  height: 100%;
+}
+.MyOrderMainListsTxt{
+  width: 440rpx;
+}
+.MyOrderMainListsTxtName{
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  height: 90rpx;
+  line-height: 45rpx;
+  font-weight: 600;
+  color: #333333;
+  letter-spacing: 0;
+  padding-bottom: 14rpx;
+}
+.MyOrderMainListsTxtNum text{
+  width: 50%;
+  height: 33rpx;
+  line-height: 33rpx;
+  display: inline-block;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  color: #999;
+  letter-spacing: 0;
+  padding-bottom: 4rpx;
+}
+.MyOrderMainListsTxtNum .MyOrderMainListsTxtNumRt{
+  color: #999999;
+  text-align: right;
+}
+.MyOrderMainListsTxtTimer{
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  height: 33rpx;
+  line-height: 33rpx;
+  color: #999999;
+  letter-spacing: 0;
+  padding-bottom: 20rpx;
+}
+.MyOrderMainListsTxtTData{
+  height: 33rpx;
+  line-height: 33rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  color: #FF2040;
+  letter-spacing: 0;
+}
+.MyOrderBtm{
+  padding-top: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  height: 33rpx;
+  line-height: 33rpx;
+  color: #999999;
+  text-align: center;
+  letter-spacing: 0;
+}

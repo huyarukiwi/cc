@@ -1,0 +1,92 @@
+<!--pages/finsh/finsh.wxml-->
+<view class='dfh'>
+  <view class='dfhimg'>
+    <image src='http://i1.bvimg.com/667036/7118bfc638039263.png'></image>
+  </view>
+  <text class='dfhtext'>已完成</text>
+</view>
+<view class='msg'>
+  <view class='msgCon'>
+    <text class='msgCon-text'>联系人</text>
+    <text class='msgCon-text1'>王昊天</text>
+  </view>
+  <view class='msgCon'>
+    <text class='msgCon-text'>手机号</text>
+    <text class='msgCon-text1'>15522952750</text>
+  </view>
+  <view class='msgCon1'>
+    <text class='msgCon-text'>收货地址</text>
+    <view class='msgCon-text2'>
+      <text>天津市武清区创业总部基地5号楼1单元501天津市武清</text>
+    </view>
+  </view>
+</view>
+<view class='bar'></view>
+<view class='title'>
+  共计2件商品
+</view>
+<view class='shop'>
+  <view class='shopimg'>
+    <image src='http://i2.bvimg.com/667037/bc554db2f1961434.jpg'></image>
+  </view>
+  <view class='shoptext'>
+    <view class='shoptext1'>Apple 耳机 采用 Lightning 接头的 EarPods</view>
+    <view class='shoptext2'>红色 1.8米</view>
+  </view>
+  <view class='shopprice'>
+    <view class='shopprice1'>¥29.00</view>
+    <view class='shopprice2'>¥29.00</view>
+    <view class='shopprice3'>x2</view>
+  </view>
+</view>
+<view class='shop1'>
+  <view class='shopimg'>
+    <image src='http://i2.bvimg.com/667037/381ee2607a8a7931.jpg'></image>
+  </view>
+  <view class='shoptext'>
+    <view class='shoptext1'>苹果原装手机数据线充电线iPhone6s5S/6/7/PlusiPad</view>
+  </view>
+  <view class='shopprice'>
+    <view class='shopprice1'>¥50.00</view>
+    <view class='shopprice4'>x1</view>
+  </view>
+</view>
+<view class='do'>
+  <button>查看物流</button>
+</view>
+<view class='price'>
+  <view class='top'>
+    <view class='price-top'>
+      <text class='toptext'>商品总额</text>
+      <text class='toptext1'>¥200.00</text>
+    </view>
+    <view class='price-top'>
+      <text class='toptext'>配送费</text>
+      <text class='toptext2'>¥10.00</text>
+    </view>
+  </view>
+  <view class='bot'>
+    <text class='bottext'>实付款：</text>
+    <text class='bottext1'>¥210.00</text>
+  </view>
+</view>
+<view class='bar'></view>
+<view class='footer'>
+  <view class='footer1'>
+    <text>订单编号</text>
+    <text style='margin-left:24rpx;'>7915388323646240</text>
+  </view>
+  <view class='footer1'>
+    <text>创建时间</text>
+    <text style='margin-left:24rpx;'>2017-04-08 21:47:29</text>
+  </view>
+  <view class='footer1'>
+    <text>付款时间</text>
+    <text style='margin-left:24rpx;'>2017-04-08 21:49:06</text>
+  </view>
+  <view class='footer1'>
+    <text>收货时间</text>
+    <text style='margin-left:24rpx;'>2017-04-11 09:32:08</text>
+  </view>
+</view>
+<view class='bar1'></view>

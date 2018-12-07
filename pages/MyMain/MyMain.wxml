@@ -1,0 +1,41 @@
+<view class="MyMain">
+  <view class='MyOrderTit'>
+   昊天
+   <view class='MyMainConcern'>关注</view>
+  </view>
+
+  <view class='MyOrderMain'>
+
+    <view class='MyOrderMainLists' wx:for="{{list}}" wx:key="{{index}}">
+      <view class='MyOrderMainListsTxt'>
+        <view class='MyOrderMainListsTxtName'>
+          衬衣女2018春装新款大码宽松衬衫女纯色T恤中年女装
+        </view>
+         <view class='MyOrderMainListsTxtNum'>
+          <text class='MyOrderMainListsTxtNumLt'>拼团价：¥39.00</text>
+          <text class='MyOrderMainListsTxtNumRt'>原价：¥39.00</text>
+        </view>
+        <view class='MyOrderMainListsTxtTimer'>
+        </view>
+        <view class='MyOrderMainListsTxtTData'>
+          已退款
+        </view>
+      </view>
+      <view class='MyOrderMainListsImg'>
+        <image src='http://i1.bvimg.com/667038/82a331617a1d769b.png'></image>
+      </view>
+       <view class='MyOrderMainListsBtmTxt'>
+          产品描述: 聚酯纤维100%流行元素: 拼接 纽扣 褶皱袖长: 七分袖销售渠道类型: 纯电商(只在线上销售)
+        </view>
+    </view>
+    <view class='MyOrderBtm'>
+      我是有底线的！
+      <view class='MyMainPaths'>
+        <image src='http://i1.bvimg.com/667038/6088d01aa9448907.png'></image>
+      </view>
+    </view>
+
+  </view>
+
+ 
+</view>

@@ -1,0 +1,86 @@
+<view class='zz' wx:if="{{show}}">
+<view class='hz'>
+<view class='tishi'>提示</view>
+<view class='qd'>敬请期待</view>
+<button bindtap='xs'>确定</button>
+</view> 
+</view>
+<view class="con">
+  <view class='conBlock' bindtap='ptxq'>
+    <view class='conBlock-top'>
+      <image class='conBlock-topimg' src='http://i2.bvimg.com/667036/6201f5f4ad44fc5f.png'></image>
+      <view class='conBlock-toptext'>
+        <text>普通拼团</text>
+      </view>
+      <image class='conBlock-topimg1' src='http://i2.bvimg.com/667036/a86fcb3c20527609.png'></image>
+    </view>
+    <view class='conBlock-bottom'>
+      <text>单团模式，达到规定成团人数后即可享受拼团价</text>
+    </view>
+  </view>
+  <view class='conButton'>
+    <view class='conButton-text'>
+      <text>示例：</text>
+    </view>
+    <view class='conButton-btn'>
+      <button>微商团购</button>
+      <button>引流到店</button>
+      <button>活动聚会</button>
+    </view>
+  </view>
+  <view class='conBlock1'>
+    <view class='conBlock-top'>
+      <image class='conBlock-topimg' src='http://i2.bvimg.com/667036/120c400b8b319c43.png'></image>
+      <view class='conBlock-toptext1'>
+        <text>阶梯拼团</text>
+      </view>
+      <image class='conBlock-topimg1' src='http://i2.bvimg.com/667036/a86fcb3c20527609.png'></image>
+    </view>
+    <view class='conBlock-bottom'>
+      <text>单团模式，参团人数越多拼团价格越便宜</text>
+    </view>
+  </view>
+  <view class='conButton'>
+    <view class='conButton-text'>
+      <text>示例：</text>
+    </view>
+    <view class='conButton-btn1'>
+      <button>引流到店</button>
+      <button>裂变营销</button>
+      <button>共享低价</button>
+    </view>
+  </view>
+  <view class='conBlock2'>
+    <view class='conBlock-top'>
+      <image class='conBlock-topimg' src='http://i2.bvimg.com/667036/82b3d456c894cd00.png'></image>
+      <view class='conBlock-toptext2'>
+        <text>分销拼团</text>
+      </view>
+      <image class='conBlock-topimg2' src='http://i2.bvimg.com/667036/fabb11d03ba37965.png'></image>
+    </view>
+    <view class='conBlock-bottom'>
+      <text>多团模式，由多个小团队一起组织拼团</text>
+    </view>
+  </view>
+  <view class='conButton'>
+    <view class='conButton-text'>
+      <text>示例：</text>
+    </view>
+    <view class='conButton-btn2'>
+      <button>引流到店</button>
+      <button>裂变营销</button>
+      <button>共享低价</button>
+    </view>
+  </view>
+  <view class='footer'>
+    <view class='footer-text'>
+      <text>*点击【示例】可查看参考案例</text>
+    </view>
+    <view class='footer-img'>
+      <image src='http://i2.bvimg.com/667036/853740f04780c297.png'></image>
+      <view class='footer-img-text'>
+        <text>客服</text>
+      </view>
+    </view>
+  </view>
+</view>

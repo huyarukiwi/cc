@@ -1,0 +1,98 @@
+<!--pages/income/income.wxml-->
+<view class='title'>
+  <text class="{{nowindex==0?'title-right':'title-left'}}" bindtap='forward' data-id='0'>可提现</text>
+  <view class='null'></view>
+  <text class="{{nowindex==1?'title-right':'title-left'}}" bindtap='forward' data-id='1'>已提现</text>
+</view>
+<view wx:if="{{nowindex==1}}">
+  <view class='success'>
+    <view class='success-top'>
+      <view class='suc-text'>
+        <text>提现完成</text>
+      </view>
+      <view class='suc-text1'>
+        <text>¥2.97</text>
+      </view>
+    </view>
+    <view class='success-bot'>
+      <text>2018-05-24 15:04:10</text>
+    </view>
+  </view>
+  <view class='success'>
+    <view class='success-top'>
+      <text class='suc-text2'>提现失败</text>
+      <text class='suc-text1'>¥2.97</text>
+    </view>
+    <view class='success-bot'>
+      <text>2018-05-24 15:04:10</text>
+    </view>
+  </view>
+</view>
+<view wx:if="{{nowindex==0}}">
+  <view class='content'>
+  <view class='content-top'>
+    <text>¥0.00</text>
+  </view>
+  <view class='content-bot'>
+    <text>可提现余额</text>
+  </view>
+</view>
+<view class='conBar'>
+  <text>提现金额</text>
+  <input type='number' placeholder='请输入提现金额' placeholder-style='font-size:32rpx;'></input>
+</view>
+<view class='tip'>
+  <view class='tip-title'>
+    <text>温馨提示：</text>
+  </view>
+  <view class='tip-con'>
+    <view class='cir'>
+    <image src='http://i1.bvimg.com/667036/d14bca91217e473a.png'></image>
+    </view>
+    <view class='tip-text'>
+      <text>通过惠拼团支付的钱，系统按1%扣除服务费用。（包括微信的0.6%手续费）</text>
+    </view>
+  </view>
+  <view class='tip-con'>
+    <view class='cir'>
+    <image src='http://i1.bvimg.com/667036/d14bca91217e473a.png'></image>
+    </view>
+    <view class='tip-text'>
+      <text>个人用户提现到微信零钱，企业认证用户提现到与认证主体一致的银行对公账户</text>
+    </view>
+  </view>
+  <view class='tip-con'>
+    <view class='cir1'>
+    <image src='http://i1.bvimg.com/667036/d14bca91217e473a.png'></image>
+    </view>
+    <view class='tip-text'>
+      <text>单笔单日限额最低1元，最高20000元</text>
+    </view>
+  </view>
+  <view class='tip-con'>
+    <view class='cir1'>
+    <image src='http://i1.bvimg.com/667036/d14bca91217e473a.png'></image>
+    </view>
+    <view class='tip-text'>
+      <text>拼团交易完成后，系统将在1小时内完成结算，然后可以提现</text>
+    </view>
+  </view>
+  <view class='tip-con'>
+    <view class='cir1'>
+    <image src='http://i1.bvimg.com/667036/d14bca91217e473a.png'></image>
+    </view>
+    <view class='tip-text'>
+      <text>申请提现后，原则上一个工作日内到账</text>
+    </view>
+  </view>
+  <view class='tip-con'>
+    <view class='cir1'>
+    <image src='http://i1.bvimg.com/667036/d14bca91217e473a.png'></image>
+    </view>
+    <view class='tip-text'>
+      <text>更多信息阅读《惠拼团服务协议》</text>
+    </view>
+  </view>
+</view>
+<button class='forward'>提现申请</button>
+</view>

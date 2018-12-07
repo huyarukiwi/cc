@@ -1,0 +1,31 @@
+<view class='SharePosters'>
+  <view style='width:100%;height:auto;background:#fff;'>
+    <view class='SharePostersBanner'>
+      <image src='http://i2.bvimg.com/667036/d23ad052fc6e8b70.jpg'></image>
+    </view>
+     <view class='BanerData'>
+          <view class='BanerDataTxt'>
+            <view class='BanerDataTxtName'>
+              南极人家纺 套件高支高密被床单全棉床上用品斜纹印花双人四…
+            </view>
+            <view class='BanerDataTxtJg'>
+              <text class='BanerDataTxtJg1'>拼团价 ¥59.00</text>
+              <text class='BanerDataTxtJg2'>原价：¥99</text>
+            </view>
+             <view class='BanerDataTxtGm'>
+              <text class='BanerDataTxtGm1'>昊天</text>
+              <button class='BanerDataTxtGm2'>长按二维码购买</button>
+            </view>
+          </view>
+          <view class='BanerDataEwm'>
+            <image src="http://i2.bvimg.com/667036/f619aa824af66283.png"></image>
+          </view>
+        </view>
+  </view>
+</view>
+
+ <view class='DataBtns'>
+      <button class='DataBtnsMain' size="mini">首页</button>
+      <button class='DataBtnsRemove' size="mini">保存到手机相册</button>
+      <button class='DataBtnsSave' size="mini" open-type="share" type="primary" hover-class="other-button-hover">转发到微信群</button>
+  </view>

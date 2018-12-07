@@ -1,0 +1,53 @@
+/* pages/OrdinaryDelivery/OrdinaryDelivery.wxss */
+/* pages/MyAddress/MyAddress.wxss */
+.MyAddress{
+  padding-bottom: 118rpx;
+}
+.SelfMMain{
+  margin: 0 40rpx;
+}
+.SelfMMainLists{
+  padding: 46rpx 20rpx 44rpx;
+  border-bottom: 1px solid #CBCBCB;
+  display: flex;
+  position: relative;
+}
+.SelfMMainListsName{
+  height: 48rpx;
+  line-height: 48rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 34rpx;
+  color: #333333;
+  letter-spacing: 0;
+  font-weight: 600;
+  padding-bottom: 12rpx;
+}
+.SelfMMainListsTxt{
+  line-height: 33rpx;
+  width: 540rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  color: #000E1C;
+  letter-spacing: 0;
+}
+.SelfMMainListsTxt span{
+  color: #FF2040; 
+}
+.SelfMMainListsRadio{
+  width: 70rpx;
+  height: 142rpx;
+  line-height: 142rpx;
+  text-align: center;
+  padding-right: 58rpx;
+}
+.SelfMMainListsRidio .radin{
+  width: 42rpx;
+  height: 42rpx;
+}
+.SelfMMainListsName span{
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  color: #FF2040;
+  line-height: 48rpx;
+  letter-spacing: 0;
+}

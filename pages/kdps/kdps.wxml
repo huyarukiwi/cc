@@ -1,0 +1,21 @@
+<!--pages/kdps/kdps.wxml-->
+<view class='container'>
+  <view class='head'>
+    快递配送
+  </view>
+  <view class='son'>
+    快递公司
+    <input type='text' placeholder='选择快递公司'></input>
+  </view>
+  <view class='son'>
+    快递单号
+    <input type='text' placeholder='请输入快递单号'></input>
+  </view>
+  <view class='ts'>
+    <text>*请认真选择快递公司，填写快递单号，方便结算；</text>
+    <text>*可以登录惠拼团管理后台qunpin.91pintuan.com,导入快递单号处理发货。</text>
+  </view>
+  <button class='an'>
+    确认发货
+  </button>
+</view>

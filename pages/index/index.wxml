@@ -1,0 +1,81 @@
+<view class='title'>
+  <text>惠拼团</text>
+</view>
+<view class='bar'>
+  <view class='bars'></view>
+</view>
+<view class='banner'>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image class='img' src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class='list'>
+  <view class='listTop'>
+    <view class='listTop-img'>
+      <image src='http://i2.bvimg.com/667036/2132395b0018952d.jpg'></image>
+    </view>
+    <view class='listTop-text'>
+      <view class='listTop-text1'>
+        <text>衬衣女2018春装新款大码宽松衬衫女纯色T恤中年女装</text>
+      </view>
+      <view class='listTop-text2'>
+        <text class='listTop-text-1'>原价:99</text>
+        <text class='listTop-text-2'>拼团价：¥66</text>
+      </view>
+    </view>
+  </view>
+  <view class='cancel'>
+    <image src='http://i2.bvimg.com/667036/a86fcb3c20527609.png'></image>
+  </view>
+  <view class='listCenter'>
+    <text>衬衣女2018春装新款大码宽松衬衫女纯色T恤中年女装衬衣女2018春装新款大码宽松衬衫</text>
+  </view>
+  <view class='listBottom'>
+    <view class='listBottom-text'>
+      <text>已结束</text>
+    </view>
+    <view class='listBottom-text1'>
+      <text>懒猫老陈</text>
+    </view>
+    <view>
+      <image src='http://i2.bvimg.com/667036/a65f72c7fe9db3f1.jpg'></image>
+    </view>
+  </view>
+</view>
+<view class='list'>
+  <view class='listTop'>
+    <view class='listTop-img'>
+      <image src='http://i2.bvimg.com/667036/2132395b0018952d.jpg'></image>
+    </view>
+    <view class='listTop-text'>
+      <view class='listTop-text1'>
+        <text>衬衣女2018春装新款大码宽松衬衫女纯色T恤中年女装</text>
+      </view>
+      <view class='listTop-text2'>
+        <text class='listTop-text-1'>原价:99</text>
+        <text class='listTop-text-2'>拼团价：¥66</text>
+      </view>
+    </view>
+  </view>
+  <view class='cancel'>
+    <image src='http://i2.bvimg.com/667036/a86fcb3c20527609.png'></image>
+  </view>
+  <view class='listCenter'>
+    <text>衬衣女2018春装新款大码宽松衬衫女纯色T恤中年女装衬衣女2018春装新款大码宽松衬衫</text>
+  </view>
+  <view class='listBottom'>
+    <view class='listBottom-text'>
+      <text>已结束</text>
+    </view>
+    <view class='listBottom-text1'>
+      <text>懒猫老陈</text>
+    </view>
+    <view>
+      <image src='http://i2.bvimg.com/667036/a65f72c7fe9db3f1.jpg'></image>
+    </view>
+  </view>
+</view>

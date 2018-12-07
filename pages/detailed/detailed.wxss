@@ -1,0 +1,43 @@
+/* pages/detailed/detailed.wxss */
+.title{
+  height: 129rpx;
+  line-height: 129rpx;
+  font-size: 44rpx;
+  color: #333;
+  margin-left: 40rpx;
+}
+.detBar{
+  width: 670rpx;
+  height: 185rpx;
+  border: 2rpx solid #cbcbcb;
+  border-radius: 10rpx;
+  margin-left: 40rpx;
+}
+.detBar-top{
+  width: 118rpx;
+  height: 62rpx;
+  font-size: 44rpx;
+  line-height: 62rpx;
+  color: #333;
+  margin-top: 38rpx;
+  margin-left: 45rpx;
+  margin-bottom: 11rpx;
+}
+.detBar-bot{
+  width: 168rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  color: #333;
+  opacity: 0.7;
+  margin-left: 45rpx;
+}
+.footer{
+  width: 144rpx;
+  height: 33rpx;
+  font-size: 24rpx;
+  color: #999;
+  line-height: 33rpx;
+  margin-left: 303rpx;
+  margin-top: 20rpx;
+}

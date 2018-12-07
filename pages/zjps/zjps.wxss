@@ -1,0 +1,33 @@
+/* pages/zjps/zjps.wxss */
+.container{
+  width: 100%;
+  height: auto;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+}
+.head{
+  width: 100%;
+  height: 140rpx;
+  font-size: 44rpx;
+  line-height: 140rpx;
+  color: #333;
+}
+.ts{
+  width: 648rpx;
+  height: 66rpx;
+  font-size: 24rpx;
+  color: #FF2040;
+  line-height: 33rpx;
+  margin-left: 20rpx;
+}
+.an{
+  width: 710rpx;
+  height: 88rpx;
+  font-size: 34rpx;
+  color: #fff;
+  background-color: #409EFF;
+  border-radius: 8rpx;
+  position: fixed;
+  bottom: 20rpx;
+  left:20rpx;
+}

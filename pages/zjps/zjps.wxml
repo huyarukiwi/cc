@@ -1,0 +1,10 @@
+<!--pages/zjps/zjps.wxml-->
+<view class='container'>
+  <view class='head'>
+    自己配送
+  </view>
+  <view class='ts'>
+    *如果不走第三方物流发货，而是由团长自己送货的话，请在 安排好相关发货事宜后直接点击页面下方的【确认发货】按钮
+  </view>
+  <button class='an'>确认发货</button>
+</view>

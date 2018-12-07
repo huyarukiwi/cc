@@ -1,0 +1,15 @@
+<!--pages/detailed/detailed.wxml-->
+<view class='title'>
+  <text>自卖收入</text>
+</view>
+<view class='detBar'>
+  <view class='detBar-top'>
+    <text>¥0.00</text>
+  </view>
+  <view class='detBar-bot'>
+    <text>自卖收入总额</text>
+  </view>
+</view>
+<view class='footer'>
+  <text>暂无自卖收入</text>
+</view>

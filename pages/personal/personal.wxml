@@ -1,0 +1,36 @@
+<!--pages/personal/personal.wxml-->
+<view class='pad'>
+  <view class='perTitle'>
+    <text>个人资料</text>
+  </view>
+  <view class='perImg'>
+    <view class='pertext'>
+      <text>头像</text>
+    </view>
+    <view class='perImgs'>
+      <image src='http://i2.bvimg.com/667036/a65f72c7fe9db3f1.jpg'></image>
+    </view>
+  </view>
+  <view class='perName'>
+    <view class='perName1'>
+      <text>姓名</text>
+    </view>
+    <view class='perName2'>
+      <input value='昊天'></input>
+    </view>
+  </view>
+  <view class='code'>
+    <view class='codeTop'>
+      <view class='codeText'><text>我的二维码</text></view>
+      <image class='codeImg' src='http://i1.bvimg.com/667036/56992f3ae011de43.jpg'></image>
+      <image class='codeImg1' src='http://i2.bvimg.com/667036/a86fcb3c20527609.png'></image>
+    </view>
+    <view class='codeBot'>
+      <text>将在个人主页及拼团详情页显示，方便与小团长，团员联系</text>
+    </view>
+  </view>
+  <view class='self'>
+    <text style='margin-left:20rpx;'>关于我</text>
+  </view>
+</view>
+<button class='keep'>保存</button>
